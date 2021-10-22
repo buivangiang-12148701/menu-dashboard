@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Box from "./components/Box/Box";
+import BoxCard from "./components/BoxCard/BoxCard";
+import Clock from "../src/clock.svg";
+import LaptopHouse from "../src/laptop-house.svg";
+import User from "../src/users.svg";
 
+
+const data = [
+  {
+    id: 1,
+    name: "box1",
+    title: "Chấm công",
+    icon: Clock
+  },
+  {
+    id:2,
+    name: "box2",
+    title: "Làm việc tại nhà",
+    icon: LaptopHouse
+  },
+  {
+    id:3,
+    name: "box3",
+    title: "Chấm công 3",
+    icon: User
+  }
+]
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+        {data.map(item =>
+            <div className={'box__container'} key={item.id}>
+              <div className={'box__card'}>
+                <img src={item.icon} className={'box__icon'}  alt={item.name} />
+              </div>
+              <div className={'box__title'}>{item.title}</div>
+            </div>
+        )}
+    </>
   );
 }
 

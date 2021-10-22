@@ -1,12 +1,8 @@
-/*.App {*/
-/*  text-align: center;*/
-/*}*/
-.box__container {
+.box {
     display: inline-flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 30px;
-
+    gap: 10px;
+    padding: 20px;
 }
 
 .box__card {
@@ -26,5 +22,5 @@
 
 .box__icon {
     max-width: 80%;
+    height: auto;
 }
-
