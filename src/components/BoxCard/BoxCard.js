@@ -5,7 +5,7 @@ import clock from "../../clock.svg";
 
 const BoxCard = ({data}) => {
     return (
-        <div className={'box'}>
+        <div className={'box'}>v
             <div className={'box__card'}>
                 <img src={clock} className={'box__icon'}  alt={data.name}/>
             </div>

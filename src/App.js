@@ -29,7 +29,7 @@ const data = [
 ]
 function App() {
   return (
-      <>
+      <div className={'container'}>
         {data.map(item =>
             <div className={'box__container'} key={item.id}>
               <div className={'box__card'}>
@@ -38,7 +38,7 @@ function App() {
               <div className={'box__title'}>{item.title}</div>
             </div>
         )}
-    </>
+    </div>
   );
 }
 

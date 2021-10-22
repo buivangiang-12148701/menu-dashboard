@@ -1,26 +1,26 @@
-.box {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
-}
+/*.box {*/
+/*    display: inline-flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*    margin: 20px;*/
+/*}*/
 
-.box__card {
-    width: 150px;
-    height: 150px;
-    background-image: linear-gradient(to right bottom, #6fa3f0, #488bf7, #2371fb, #1853f9, #3529f1);
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 3px #888888;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.box__card {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    background-image: linear-gradient(to right bottom, #6fa3f0, #488bf7, #2371fb, #1853f9, #3529f1);*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 2px 2px 2px 3px #888888;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
 
-.box__title {
-    text-align: center;
-}
+/*.box__title {*/
+/*    text-align: center;*/
+/*}*/
 
-.box__icon {
-    max-width: 80%;
-    height: auto;
-}
+/*.box__icon {*/
+/*    max-width: 80%;*/
+/*    height: auto;*/
+/*}*/
