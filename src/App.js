@@ -17,11 +17,29 @@ const data = [
   {
     id:2,
     name: "box2",
-    title: "Làm việc tại nhà",
+    title: "Làm việc tại nhà Làm việc tại nhàLàm việc tại nhàLàm việc tại nhàLàm việc tại nhàLàm việc tại nhà",
     icon: LaptopHouse
   },
   {
     id:3,
+    name: "box3",
+    title: "Chấm công 3",
+    icon: User
+  },
+  {
+    id: 4,
+    name: "box1",
+    title: "Chấm công",
+    icon: Clock
+  },
+  {
+    id:5,
+    name: "box2",
+    title: "Làm việc tại nhà Làm việc tại nhàLàm việc tại nhàLàm việc tại nhàLàm việc tại nhàLàm việc tại nhà",
+    icon: LaptopHouse
+  },
+  {
+    id:6,
     name: "box3",
     title: "Chấm công 3",
     icon: User

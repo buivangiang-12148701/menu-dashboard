@@ -21,11 +21,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .box__title {
+    width:150px;
     text-align: center;
     margin-top: 20px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box__icon {
